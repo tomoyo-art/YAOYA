@@ -114,8 +114,9 @@ ul {
         position: absolute;
         right: -100px;
         top: 20px;
+        display: none;
         @include sp {
-            right: 10px;
+             display: block;
         }
 
         
@@ -219,7 +220,7 @@ ul {
 
 // consept
 .consept_wrapper {
-    background-image: url(/img//YAOYA_kodawari.png);
+    background-image: url(https://github.com/tomoyo-art/YAOYA/blob/main/img/YAOYA_kodawari.png?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0;
